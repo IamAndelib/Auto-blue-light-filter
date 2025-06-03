@@ -3,7 +3,7 @@
 
 Automatic screen temperature adjustment tool for Hyprland, intelligently adjusting your display's colour temperature based on the time of day, weather conditions, and location.
 
-✨ Features
+#Features
 
 1. Automatic temperature adjustment based on time of day and weather
 2. Location-aware using IP geolocation
