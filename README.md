@@ -13,3 +13,7 @@ Automatic screen temperature adjustment tool for Hyprland, intelligently adjusti
 6. Persistent state management across sessions
 7. Desktop notifications for status updates
 8. Comprehensive logging for troubleshooting
+
+# Installation of Dependencies
+
+sudo pacman -S hyprsunset python python-requests
