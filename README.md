@@ -1,9 +1,8 @@
-# Auto-blue-light-filter
-🌡️ Intelligent screen temperature adjustment for Hyprland with weather-aware automation
+# Auto-blue-light-filter🌡️ 
 
-Automatic screen temperature adjustment tool for Hyprland, intelligently adjusting your display's colour temperature based on the time of day, weather conditions, and location.
+Intelligent screen temperature adjustment for Hyprland with weather-aware automation
 
-# Features
+## ✨ Features
 
 1. Automatic temperature adjustment based on time of day and weather
 2. Location-aware using IP geolocation
@@ -14,6 +13,18 @@ Automatic screen temperature adjustment tool for Hyprland, intelligently adjusti
 7. Desktop notifications for status updates
 8. Comprehensive logging for troubleshooting
 
-# Installation of Dependencies
+# 📋 Requirements
+## System Requirements
 
+1. Hyprland window manager
+2. hyprsunset - Hyprland's screen temperature adjustment tool
+3. Python 3.6+
+4. notify-send (libnotify) for notifications
+
+## Installation of Dependencies
+
+### Arch:
+
+'''bash
 sudo pacman -S hyprsunset python python-requests
+'''
