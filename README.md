@@ -1,4 +1,4 @@
-# Auto-blue-light-filter-
+# Auto-blue-light-filter
 🌡️ Intelligent screen temperature adjustment for Hyprland with weather-aware automation
 
 Automatic screen temperature adjustment tool for Hyprland, intelligently adjusting your display's colour temperature based on the time of day, weather conditions, and location.
