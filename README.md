@@ -204,7 +204,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📊 Status Examples
 ```
-==================================================
+=========================================================
 📍 LOCATION & WEATHER
    Location: London, United Kingdom
    Weather: Clear (Clear Sky)
@@ -220,7 +220,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
    Config: /home/user/.config/hypr-py-light/config.ini
    State: /home/user/.config/hypr-py-light/state.json
    Logs: /home/user/.config/hypr-py-light/hyprlight.log
-=================================================
+==========================================================
 ```
 
 ## 🔄 Version History
