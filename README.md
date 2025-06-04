@@ -154,10 +154,10 @@ bind = SUPER, F7, exec, hypr-py-light status     # Show status
 ```
 
 ### 📁 File Locations
-Configuration: `~/.config/hypr-py-light/config.ini`
-State: `~/.config/hypr-py-light/state.json`
-Logs: `~/.config/hypr-py-light/hyprlight.log`
-Cache: `~/.config/hypr-py-light/cache/`
+1. Configuration: `~/.config/hypr-py-light/config.ini`
+2. State: `~/.config/hypr-py-light/state.json`
+3. Logs: `~/.config/hypr-py-light/hyprlight.log`
+4. Cache: `~/.config/hypr-py-light/cache/`
 
 ## 🐛 Troubleshooting
 
@@ -200,7 +200,32 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🙏 Acknowledgments
 
-1. [Hyprland] (URL) [https://hyprland.org/]- The amazing window manager
-2. hyprsunset - Screen temperature adjustment tool
-3. OpenWeatherMap - Weather data API
-4. IP Geolocation - Location detection API
+1. [Hyprland] (https://hyprland.org/)- The amazing window manager
+2. [hyprsunset] (https://github.com/hyprwm/hyprsunset)- Screen temperature adjustment tool
+3. [OpenWeatherMap] (https://openweathermap.org/)- Weather data API
+4. [IP Geolocation] (https://ipgeolocation.io/)- Location detection API
+
+## 📊 Status Examples
+`==================================================
+📍 LOCATION & WEATHER
+   Location: London, United Kingdom
+   Weather: Clear (Clear Sky)
+   Temperature: 18.5°C
+   Time Period: Day
+
+🖥️  SCREEN SETTINGS
+   Screen Temperature: 6500K
+   Mode: Automatic
+   Blue Light Filter: OFF
+
+📂 FILES
+   Config: /home/user/.config/hypr-py-light/config.ini
+   State: /home/user/.config/hypr-py-light/state.json
+   Logs: /home/user/.config/hypr-py-light/hyprlight.log
+=================================================`
+
+## 🔄 Version History
+1. v1.0.0 - Initial release with automatic temperature adjustment
+
+____________________________________________________________________
+Made with ❤️ for the Hyprland community
