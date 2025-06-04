@@ -200,10 +200,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🙏 Acknowledgments
 
-1. [Hyprland] (https://hyprland.org/)- The amazing window manager
-2. [hyprsunset] (https://github.com/hyprwm/hyprsunset)- Screen temperature adjustment tool
-3. [OpenWeatherMap] (https://openweathermap.org/)- Weather data API
-4. [IP Geolocation] (https://ipgeolocation.io/)- Location detection API
+1. [Hyprland](https://hyprland.org/) - The amazing window manager
+2. [hyprsunset](https://github.com/hyprwm/hyprsunset) - Screen temperature adjustment tool
+3. [OpenWeatherMap](https://openweathermap.org/) - Weather data API
+4. [IP Geolocation](https://ipgeolocation.io/) - Location detection API
 
 ## 📊 Status Examples
 `==================================================
