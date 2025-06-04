@@ -212,9 +212,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
    Location: London, United Kingdom
    Weather: Clear (Clear Sky)
    Temperature: 18.5°C
-   Time Period: Day
+   Time: Day
 
-🖥️  SCREEN SETTINGS
+🖥️ SCREEN SETTINGS
    Screen Temperature: 6500K
    Mode: Automatic
    Blue Light Filter: OFF
