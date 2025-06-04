@@ -2,22 +2,22 @@
 Intelligent screen temperature adjustment for Hyprland with weather-aware automation
 
 ## ✨ Features
-1. Automatic temperature adjustment based on time of day and weather
-2. Location-aware using IP geolocation
-3. Weather integration with OpenWeatherMap API
-4. Manual and automatic modes with easy toggling
-5. Blue light filter for reduced eye strain
-6. Persistent state management across sessions
-7. Desktop notifications for status updates
-8. Comprehensive logging for troubleshooting
+1. **Automatic temperature adjustment** based on time of day and weather
+2. **Location-aware** using IP geolocation
+3. **Weather integration** with OpenWeatherMap API
+4. **Manual and automatic modes** with easy toggling
+5. **Blue light filter** for reduced eye strain
+6. **Persistent state management** across sessions
+7. **Desktop notifications** for status updates
+8. **Comprehensive logging** for troubleshooting
 
 # 📋 Requirements
 
 ## System Requirements
-1. Hyprland window manager
-2. hyprsunset - Hyprland's screen temperature adjustment tool
-3. Python 3.6+
-4. notify-send (libnotify) for notifications
+1. **Hyprland** window manager
+2. **hyprsunset** - Hyprland's screen temperature adjustment tool
+3. **Python 3.6+**
+4. **notify-send** (libnotify) for notifications
 
 ## Installation of Dependencies
 
@@ -69,14 +69,11 @@ Run the script for initial configuration:
 
 You'll be prompted to enter API keys for:
 
-1. OpenWeatherMap API (for weather data)
-
+1. **OpenWeatherMap API** (for weather data)
   a. Get a free API key at: https://openweathermap.org/api
   b. Used for weather-based temperature adjustments
 
-
-2. IP Geolocation API (for location detection)
-
+2. **IP Geolocation API** (for location detection)
   a. Get a free API key at: https://ipgeolocation.io/
   b. Used to determine your location automatically
 
@@ -118,13 +115,13 @@ hypr-py-light
 ```
 
 ### Temperature Profiles
-1. Day Clear: 6500K (neutral white)
-2. Day Cloudy: 5800K (slightly warm)
-3. Day Rainy: 5200K (warmer)
-4. Night Default: 4200K (warm)
-5. Night Cold: 3800K (very warm)
-6. Manual Blue Light On: 5000K
-7. Manual Blue Light Off: 6500K
+1. **Day Clear:** 6500K (neutral white)
+2. **Day Cloudy:** 5800K (slightly warm)
+3. **Day Rainy:** 5200K (warmer)
+4. **Night Default:** 4200K (warm)
+5. **Night Cold:** 3800K (very warm)
+6. **Manual Blue Light On:** 5000K
+7. **Manual Blue Light Off:** 6500K
 
 ### Systemd Service (Recommended)
 1. Copy the service file:
@@ -154,28 +151,28 @@ bind = SUPER, F7, exec, hypr-py-light status     # Show status
 ```
 
 ### 📁 File Locations
-1. Configuration: `~/.config/hypr-py-light/config.ini`
-2. State: `~/.config/hypr-py-light/state.json`
-3. Logs: `~/.config/hypr-py-light/hyprlight.log`
-4. Cache: `~/.config/hypr-py-light/cache/`
+1. **Configuration:** `~/.config/hypr-py-light/config.ini`
+2. **State:** `~/.config/hypr-py-light/state.json`
+3. **Logs:** `~/.config/hypr-py-light/hyprlight.log`
+4. **Cache:** `~/.config/hypr-py-light/cache/`
 
 ## 🐛 Troubleshooting
 
 ### Common Issues
-"hyprsunset command not found"
+**"hyprsunset command not found"**
 1. Install hyprsunset: `sudo pacman -S hyprsunset (Arch) or build from source`
 
-### Temperature not changing
+**Temperature not changing**
 1. Check if hyprsunset is running: `pgrep hyprsunset`
 2. Check logs: tail `~/.config/hypr-py-light/hyprlight.log`
 3. Verify API keys in config file
 
-### Location detection not working
+**Location detection not working**
 1. Check internet connection
 2. Verify IP Geolocation API key
 3. Use `refresh-location` command
 
-### Service not starting
+**Service not starting**
 1. Check systemd logs: `journalctl --user -u hypr-py-light.service`
 2. Ensure script has execute permissions
 3. Verify Python dependencies are installed
