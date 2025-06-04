@@ -1,0 +1,10 @@
+[API]
+# OpenWeatherMap API Key
+# Get your free API key at: https://openweathermap.org/api
+# Required for weather-based temperature adjustments
+openweather = your_openweather_api_key_here
+
+# IP Geolocation API Key  
+# Get your free API key at: https://ipgeolocation.io/
+# Required for automatic location detection
+ipgeolocation = your_ipgeolocation_api_key_here
