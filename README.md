@@ -225,7 +225,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 =================================================`
 
 ## 🔄 Version History
-1. v1.0.0 - Initial release with automatic temperature adjustment
+1. **v1.0.0** - Initial release with automatic temperature adjustment
 
 ____________________________________________________________________
 Made with ❤️ for the Hyprland community
