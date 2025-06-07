@@ -2,22 +2,21 @@
 Automatic screen temperature adjustment tool for Hyprland, intelligently adjusting your display's colour temperature based on the time of day, weather conditions, and location.
 
 ## ✨ Features
-1. **Automatic temperature adjustment** based on time of day and weather
-2. **Location-aware** using IP geolocation
-3. **Weather integration** with OpenWeatherMap API
-4. **Manual and automatic modes** with easy toggling
-5. **Blue light filter** for reduced eye strain
-6. **Persistent state management** across sessions
-7. **Desktop notifications** for status updates
-8. **Comprehensive logging** for troubleshooting
+- **Automatic temperature adjustment** based on time of day and weather
+- **Location-aware** using IP geolocation
+- **Weather integration** with OpenWeatherMap API
+- **Manual and automatic modes** with easy toggling
+- **Blue light filter** for reduced eye strain
+- **Desktop notifications** for status updates
+- **Comprehensive logging** for troubleshooting
 
 # 📋 Requirements
 
 ## System Requirements
-1. **Hyprland** window manager
-2. **hyprsunset** - Hyprland's screen temperature adjustment tool
-3. **Python 3.6+**
-4. **notify-send** (libnotify) for notifications
+- **Hyprland** window manager
+- **hyprsunset** - Hyprland's screen temperature adjustment tool
+- **Python 3.6+**
+- **notify-send** (libnotify) for notifications
 
 ## Installation of Dependencies
 
@@ -33,30 +32,11 @@ sudo apt install python3 python3-pip python3-requests libnotify-bin
 
 ## 🚀 Installation
 
-### Method 1: Quick Install (Recommended)
 ```bash
 # Clone the repository
 git clone https://github.com/YOUR_USERNAME/hypr-py-light.git
 cd hypr-py-light
-
-# Run installation script
-chmod +x install.sh
-./install.sh
-```
-### Method 2: Manual Installation
-```bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/hypr-py-light.git
-cd hypr-py-light
-
-# Install Python dependencies
-pip3 install --user -r requirements.txt
-
-# Make script executable
 chmod +x hypr-py-light.py
-
-# Optional: Add to PATH
-cp hypr-py-light.py ~/.local/bin/hypr-py-light
 ```
 
 ## ⚙️ Configuration
@@ -70,12 +50,12 @@ Run the script for initial configuration:
 You'll be prompted to enter API keys for:
 
 1. **OpenWeatherMap API** (for weather data)
-  a. Get a free API key at: https://openweathermap.org/api
-  b. Used for weather-based temperature adjustments
+  - Get a free API key at: https://openweathermap.org/api
+  - Used for weather-based temperature adjustments
 
 2. **IP Geolocation API** (for location detection)
-  a. Get a free API key at: https://ipgeolocation.io/
-  b. Used to determine your location automatically
+  - Get a free API key at: https://ipgeolocation.io/
+  - Used to determine your location automatically
 
 ### Manual Configuration
 Edit `~/.config/hypr-py-light/config.ini`:
@@ -110,7 +90,7 @@ hypr-py-light refresh-location
 # Test with specific temperature
 hypr-py-light test 4500
 
-# Run as background daemon
+# Run as a background daemon
 hypr-py-light
 ```
 
