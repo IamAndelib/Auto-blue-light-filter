@@ -97,37 +97,22 @@ hypr-py-light
 ### Temperature Profiles
 1. **Day Clear:** 6500K (neutral white)
 2. **Day Cloudy:** 5800K (slightly warm)
-3. **Day Rainy:** 5200K (warmer)
-4. **Night Default:** 4200K (warm)
-5. **Night Cold:** 3800K (very warm)
+3. **Day Rainy:** 5200K (warm)
+4. **Night Default:** 4600K (warmer)
+5. **Night Cold:** 4200K (very warm)
 6. **Manual Blue Light On:** 5000K
 7. **Manual Blue Light Off:** 6500K
-
-### Systemd Service (Recommended)
-1. Copy the service file:
-```bash
-cp hypr-py-light.service ~/.config/systemd/user/
-```
-2. Enable and start the service:
-```bash
-systemctl --user enable hypr-py-light.service
-systemctl --user start hypr-py-light.service
-```
-3. Check service status:
-```bash
-systemctl --user status hypr-py-light.service
-```
 
 ### Hyprland Integration
 Add to your `hyprland.conf`:
 ```bash
 # Start hypr-py-light automatically
-exec-once = hypr-py-light
+exec-once = /path-to-blue-light.py
 
 # Keybindings
-bind = SUPER, F5, exec, hypr-py-light toggle      # Toggle blue light
-bind = SUPER, F6, exec, hypr-py-light manual     # Toggle mode
-bind = SUPER, F7, exec, hypr-py-light status     # Show status
+bind = SUPER, F5, exec, ~/path-to-hypr-py-light toggle     # Toggle blue light in manual mode
+bind = SUPER, F6, exec, ~/path-to-hypr-py-light manual     # Toggle mode (auto/manual)
+bind = SUPER, F7, exec, ~/path-to-hypr-py-light status     # Show status
 ```
 
 ### 📁 File Locations
